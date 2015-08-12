@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Diagram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="donutDiagram.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="tableContainer">
+      <div class="tableRow">
+        <section id="diagramBlock" class="tableCell">
+          <canvas id="diagram" width="600" height="600">
+            Sorry, your browser doesn't support <strong>canvas</strong>
+          </canvas>
+        </section>
+        <section id="formBlock" class="tableCell">
+          <form>
+            <p>
+              <span id="color1" class="color"></span>
+              <label for="value1">Value 1</label>
+              <input id="value1" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color2" class="color"></span>
+              <label for="value2">Value 2</label>
+              <input id="value2" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color3" class="color"></span>
+              <label for="value3">Value 3</label>
+              <input id="value3" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color4" class="color"></span>
+              <label for="value4">Value 4</label> 
+              <input id="value4" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color5" class="color"></span>
+              <label for="value5">Value 5</label>
+              <input id="value5" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color6" class="color"></span>
+              <label for="value6">Value 6</label>
+              <input id="value6" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color7" class="color"></span>
+              <label for="value7">Value 7</label>
+              <input id="value7" type="number" min="0" max="100">
+            </p>
+            <p>
+              <span id="color8" class="color"></span>
+              <label for="value8">Value 8</label>
+              <input id="value8" type="number" min="0" max="100">
+            </p>
+            <p><input id="updateDataButton" type="button" value="Update values"></p>
+            <p><input id="toggleTimerButton" type="button" value="Start timer"></p>
+            <p><input id="updateColorsButton" type="button" value="Colors"></p>
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

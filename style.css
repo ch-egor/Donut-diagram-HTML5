@@ -1,0 +1,48 @@
+html, body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: medium;
+    background-color: beige;
+	margin: 0px;
+	height: 100%;
+}
+
+.tableContainer {
+    display: table;
+    margin: auto;
+	height: 100%;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableCell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#diagramBlock {
+   padding-right: 20px;
+}
+
+#formBlock {
+    font-size: 0.8em;
+    width: 200px;
+    text-align: center;
+}
+
+#formBlock .color {
+   padding: 0em 0.7em;
+   margin-right: 5px;
+   border-radius: 3px;
+}
+
+#formBlock input[type="number"] {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#formBlock input[type="button"] {
+    width: 120px;
+    height: 25px;
+}
